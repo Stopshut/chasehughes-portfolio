@@ -25,14 +25,17 @@ export const Projects =  () => {
                                 ))}
                             </div>
                             <div className="flex justify-between items-center">
-                                <a href="#" className="text-red-400 hover:text-red-300 transition-colors my-4"> View Project → </a>
+                                <a href="https://store.steampowered.com/app/2823810/Tilt" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="text-red-400 hover:text-red-300 transition-colors my-4"> View Project → </a>
                             </div>
                         </div>
 
                         {/* Repeat same red theme for other projects */}
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 hover:shadow-[0_2px_8px_rgba(239,68,68,0.2)] transition-all">
                             <h3 className="text-xl font-bold mb-2">Basics In Intermediate Filmmaking</h3>
-                            <p className="text-gray-400 mb-4">A first-person puzzle horror made in Unreal Engine 5</p>
+                            <p className="text-gray-400 mb-4">A first-person puzzle horror game designed in Unreal Engine 5</p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {["Unreal Engine", "Blueprint Scripting", "Game Design", "Level Design"].map((tech, key) => (
                                     <span key={key} className="bg-red-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-red-500/20 hover:shadow-[0_2px_8px_rgba(239,68,68,0.2)] transition">
@@ -41,7 +44,10 @@ export const Projects =  () => {
                                 ))}
                             </div>
                             <div className="flex justify-between items-center">
-                                <a href="#" className="text-red-400 hover:text-red-300 transition-colors my-4"> View Project → </a>
+                                <a href="https://store.steampowered.com/app/2477740/Basics_In_Intermediate_Filmmaking" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="text-red-400 hover:text-red-300 transition-colors my-4"> View Project → </a>
                             </div>
                         </div>
 
@@ -56,7 +62,10 @@ export const Projects =  () => {
                                 ))}
                             </div>
                             <div className="flex justify-between items-center">
-                                <a href="#" className="text-red-400 hover:text-red-300 transition-colors my-4"> View Project → </a>
+                                <a href="https://store.steampowered.com/app/1965640/Food_Fight" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="text-red-400 hover:text-red-300 transition-colors my-4"> View Project → </a>
                             </div>
                         </div>
 
@@ -71,7 +80,10 @@ export const Projects =  () => {
                                 ))}
                             </div>
                             <div className="flex justify-between items-center">
-                                <a href="#" className="text-red-400 hover:text-red-300 transition-colors my-4"> View Project → </a>
+                                <a href="https://www.tiktok.com/@pianicam" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="text-red-400 hover:text-red-300 transition-colors my-4"> View Project → </a>
                             </div>
                         </div>
 
@@ -86,7 +98,10 @@ export const Projects =  () => {
                                 ))}
                             </div>
                             <div className="flex justify-between items-center">
-                                <a href="#" className="text-red-400 hover:text-red-300 transition-colors my-4"> View Project → </a>
+                                <a href="https://www.youtube.com/channel/UCHXMM9tvmIqeCsERDvL8KhA" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="text-red-400 hover:text-red-300 transition-colors my-4"> View Project → </a>
                             </div>
                         </div>
                     </div>
